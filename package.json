@@ -1,0 +1,22 @@
+{
+  "name": "testblognovalar",
+  "version": "1.0.0",
+  "description": "[  ] Transformar prototipo em codigo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zDeep10/TestBlogNovalar.git"
+  },
+  "author": "Gabriel Assunção",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zDeep10/TestBlogNovalar/issues"
+  },
+  "homepage": "https://github.com/zDeep10/TestBlogNovalar#readme",
+  "dependencies": {
+    "sass": "^1.49.9"
+  }
+}
