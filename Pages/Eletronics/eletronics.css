@@ -1,0 +1,39 @@
+/* MAIN SECTION */
+
+.page__orientation {
+  margin: 3rem 0 4rem 4rem;
+  font-size: 1.5rem;
+}
+
+.page__orientation a {
+  color: var(--cinza);
+}
+
+.page__title {
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 5rem;
+    color: var(--azulEscuro);
+}
+
+.page__SecondNewsBlock {
+  margin-top: -3rem;
+}
+
+/* FOOTER */
+
+.page__seeMore{
+    margin: 0 auto;
+    width: fit-content;
+}
+
+.page__seeMore button{
+    padding: 1rem 3rem;
+    border-radius: 50px;
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--amarelo);
+    background-color: var(--azulEscuro);
+    border: none;
+    margin: 8rem 0 15rem 0 ;
+}

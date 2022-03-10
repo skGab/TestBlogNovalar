@@ -1,0 +1,476 @@
+/* HEADER */
+.page__backGround {
+  background-image: url(../Img/MainPage/Banner-blog-Novalar.-1png/Banner-blog-Novalar.-1png@2x.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 10rem;
+  padding-left: 10rem;
+}
+
+.page__logo {
+  width: 425px;
+  height: auto;
+}
+
+.page__search {
+  width: 50rem;
+  display: flex;
+}
+
+.page__search input {
+  padding: 1.5rem 3rem;
+  border-radius: 50px 0 0 50px;
+  border: none;
+  font-size: 20px;
+  width: 100%;
+  outline: none;
+}
+
+.page__search input::placeholder {
+  color: var(--preto);
+}
+
+.page__search button {
+  border: none;
+  background-color: var(--amarelo);
+  padding: 1.5rem;
+  color: #050a91;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 0 50px 50px 0;
+}
+
+/* BARRA DE NAVEGAÇÃO */
+
+.page__nav {
+  background-color: var(--amarelo);
+  display: flex;
+  padding: 1.5rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.page__nav ul {
+  display: flex;
+  justify-content: space-between;
+  width: 60rem;
+  font-size: 1.5rem;
+  color: #050a91;
+  font-weight: bold;
+  text-decoration: none;
+  list-style: none;
+  margin-right: 5rem;
+}
+
+.page__nav ul li:hover {
+  border: 0.5px solid var(--azulClaro);
+  border-radius: 20px;
+  padding: 0.2rem 1rem;
+  transition: 0.2s;
+}
+
+a {
+  text-decoration: none;
+  color: #050a91;
+}
+
+.page__secondSearch {
+  display: flex;
+}
+
+.page__secondSearch input {
+  width: 25rem;
+  border: none;
+  border-bottom: 1px solid black;
+  font-size: 1.5rem;
+  font-weight: bold;
+  background: none;
+  outline: none;
+}
+
+.page__secondSearch input::placeholder {
+  color: #050a91;
+}
+
+.page__secondSearch button {
+  border: none;
+  border-bottom: 1px solid black;
+  width: 20px;
+  height: auto;
+  background: none;
+}
+
+.page__button {
+  padding: 1.5rem 3rem;
+  border-radius: 50px;
+  background-color: var(--azulClaro);
+  border: none;
+  color: var(--branco);
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-left: 5rem;
+}
+
+/* MAIN SECTION */
+
+.page__galaxyBG {
+  background-image: url(../Img/Geral/galaxy/Mask\ Group\ 1.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 400px;
+  display: flex;
+  align-items: flex-end;
+  cursor: pointer;
+}
+
+.page__blueBG {
+  background-color: var(--azulClaro);
+  height: 134px;
+  width: 493px;
+  border-radius: 40px 37px 0px 0px;
+  margin: 0 auto;
+  padding: 4rem;
+}
+
+.page__blueBG:hover {
+  background-color: var(--branco);
+}
+
+.page__blueBG:hover > a {
+  color: #050a91;
+}
+
+.page__blueBG:hover > p {
+  color: var(--cinza);
+}
+
+.page__blueBG a {
+  color: var(--branco);
+  font-size: 2em;
+  font-weight: bold;
+}
+.line {
+  width: 100%;
+  background-color: var(--cinza);
+  height: 2px;
+  margin: 1rem 0;
+}
+.page__blueBG p {
+  color: #ffcb17;
+  font-size: 1.5rem;
+}
+
+/* PRIMEIRO BLOCO DE NOTICIAS */
+
+.page__wrapper {
+  margin-top: 5rem;
+}
+
+.page__newsBlock {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.page__firstBlock {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.page__colummBlock {
+  margin-left: 4rem;
+  width: 49%;
+}
+
+.blueBackGround {
+  background-color: var(--azulClaro);
+  padding: 0 3rem;
+  width: 230px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.blueBackGround h2 {
+  color: var(--branco);
+  font-size: 2rem;
+}
+.blueBackGround p {
+  font-size: 1.5rem;
+  color: #ffcb17;
+}
+
+.page__bgMario,
+.page__bgDrone {
+  display: flex;
+  justify-content: flex-end;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 260px;
+  cursor: pointer;
+}
+
+/* COZINHA */
+.page__kitchen {
+  background-image: url(../Img/Geral/cozinha/Rectangle\ 6@2x.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 49%;
+  height: 550px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.page__kitchenBlue {
+  background-color: var(--azulClaro);
+  width: 35rem;
+  height: auto;
+  color: white;
+  padding: 2rem 3rem;
+  border-radius: 0 50px 0 0;
+}
+
+.page__kitchenBlue h2 {
+  font-size: 2rem;
+}
+.page__kitchenBlue p {
+  color: #ffcb17;
+  font-size: 1.5rem;
+}
+
+.page__kitchenBlue:hover,
+.blueBackGround:hover {
+  background-color: var(--branco);
+}
+
+.page__kitchenBlue:hover > h2,
+.blueBackGround:hover > h2 {
+  color: #050a91;
+}
+
+.page__kitchenBlue:hover > p,
+.blueBackGround:hover > p {
+  color: var(--cinza);
+}
+
+/* BG IMAGENS */
+.page__bgMario {
+  margin-bottom: 3rem;
+  background-image: url(../Img/Geral/mario/Rectangle\ 10@2x.png);
+}
+
+.page__bgDrone {
+  background-image: url(../Img/Geral/drone/Rectangle\ 9@2x.png);
+}
+
+.page__bgTv {
+  background-image: url(../Img/Geral/tv/Component\ 8\ –\ 3@2x.png);
+}
+.page__bgWa {
+  background-image: url(../Img/Geral/maquinaLavar/Component\ 9\ –\ 2@2x.png);
+}
+
+.page__bgMoveis {
+  background-image: url(../Img/Geral/sofa/Group\ 19@2x.png);
+}
+
+.page__bgPizza {
+  background-image: url(../Img/Geral/pizza/Group\ 20@2x.png);
+}
+
+/* BACKGROUND MEIO DA PAGINA */
+
+.page__middleBG {
+  background-image: url(../Img/MainPage/Mask\ Group\ 2@2x.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 400px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.page__middleBG div {
+  background-color: var(--azulClaro);
+  width: 100%;
+  padding: 3rem 5rem;
+}
+.page__middleBG h1 {
+  font-size: 2.5rem;
+  color: var(--branco);
+}
+.page__middleBG p {
+  color: #ffcb17;
+  font-size: 1.5rem;
+}
+
+.teste:hover {
+  border-bottom: 0.5px solid rgba(255, 255, 255, 0.288);
+  width: fit-content;
+}
+
+/* RESTANTE DA Seção */
+
+.page__secondBlock,
+.page__SecondNewsBlock {
+  display: flex;
+  margin-top: 5rem;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.page__tv h1,
+.page__washer h1,
+.page__pizza h1,
+.page__counch h1 {
+  color: #050a91;
+  font-size: 2.5rem;
+}
+
+.page__tv p,
+.page__washer p,
+.page__pizza p,
+.page__counch p {
+  color: var(--cinza);
+  font-size: 1.4rem;
+  font-style: italic;
+}
+
+.page__tv,
+.page__washer,
+.page__counch,
+.page__pizza {
+  width: 49%;
+}
+
+.page__bgTv,
+.page__bgWa,
+.page__bgPizza {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 400px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.page__bgMoveis {
+  height: 400px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: flex-end;
+}
+
+.page__bgTv div,
+.page__bgWa div,
+.page__bgPizza div {
+  background-color: var(--azulClaro);
+  color: var(--branco);
+  font-size: 1.8rem;
+  padding: 3rem;
+  width: 100%;
+  cursor: pointer;
+}
+
+.page__bgTv div:hover,
+.page__bgWa div:hover,
+.page__bgPizza div:hover,
+.page__bgMoveis div:hover {
+  background-color: var(--branco);
+}
+.page__bgTv div:hover > h2,
+.page__bgWa div:hover > h2,
+.page__bgMoveis div:hover > h2,
+.page__bgPizza div:hover > h2 {
+  color: #050a91;
+}
+.page__bgTv div:hover > p,
+.page__bgWa div:hover > p,
+.page__bgMoveis div:hover > p,
+.page__bgPizza div:hover > p {
+  color: var(--cinza) !important;
+}
+
+.page__bgMoveis div {
+  background-color: var(--azulClaro);
+  color: var(--branco);
+  font-size: 1.8rem;
+  padding: 3rem 1.5rem;
+  width: 100%;
+}
+
+.yellow {
+  color: #ffcb17 !important;
+}
+
+.line2 {
+  margin-bottom: 3rem;
+  height: 1px;
+  width: 100%;
+  background-color: var(--cinza);
+}
+
+.page__otherNews {
+  padding: 2.5rem;
+}
+
+.page__otherNews h2 {
+  color: #050a91;
+  font-size: 1.8rem;
+  max-width: 470px;
+  margin-bottom: 1rem;
+}
+
+.page__otherNews p {
+  margin-bottom: 3rem;
+  font-size: 1.3rem;
+}
+
+/* Footer */
+
+.page__footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--azulClaro);
+  padding: 4rem;
+}
+
+.page__footer div {
+  width: 300px;
+  height: auto;
+  margin-bottom: 3rem;
+}
+
+.page__footer ul {
+  list-style: none;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  color: var(--branco);
+  width: 50%;
+  margin-bottom: 4rem;
+}
+
+.page__footer p {
+  color: var(--branco);
+  font-size: 1.2rem;
+}
+
+.novalar{
+  margin-bottom: 1.5rem;
+  color: #ffcb17!important
+}

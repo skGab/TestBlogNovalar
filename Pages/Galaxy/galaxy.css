@@ -1,0 +1,137 @@
+/* Main section */
+
+.page__wrapper {
+  margin-top: -0.1rem;
+  margin-top: 2rem;
+}
+
+.page__orientation {
+  font-size: 1.4rem;
+  margin-bottom: 4rem;
+  color: var(--azulEscuro);
+}
+
+.page__orientation a {
+  color: var(--cinza);
+}
+
+/* BLOCO PRINCIPAL */
+.page__flagship {
+  display: flex;
+  justify-content: space-between;
+}
+.page__flagship__firstBlock {
+  width: 60%;
+}
+
+.page__flagship__firstBlock h1 {
+  font-size: 3rem;
+  color: var(--azulEscuro);
+  margin-bottom: 1rem;
+}
+
+.opacity {
+  color: var(--cinza) !important;
+  margin-bottom: 4rem !important;
+}
+.page__flagship__firstBlock p {
+  font-size: 1.5rem;
+  color: #333333;
+  text-align: justify;
+  margin-bottom: 6rem;
+}
+
+.space {
+  margin-top: -3rem !important;
+}
+.page__flagship__firstBlock img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 5rem;
+}
+.page__flagship__firstBlock h2 {
+  font-size: 2rem;
+  color: var(--azulEscuro);
+  margin-bottom: 3rem;
+}
+
+/* SEGUNDO BLOCO */
+
+.page__flagship__secondBlock {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  width: 22%;
+}
+
+.page__flagship__secondBlock h2 {
+  align-items: flex-start;
+  font-size: 2rem;
+  color: var(--azulEscuro);
+  margin-bottom: 3rem;
+}
+
+.page__blockNews {
+  display: flex;
+  margin-bottom: 4rem;
+  width: 100%;
+  align-items: center;
+}
+
+.page__blockNews img {
+  width: 95px;
+  margin-right: 2rem;
+}
+
+.page__blockNews h3 {
+  font-size: 1.5rem;
+  color: var(--azulEscuro);
+}
+
+.page__tags p {
+  color: #a5a5a5;
+  font-size: 1.3rem;
+}
+
+.line {
+  margin-top: -1rem;
+  margin-bottom: 3rem;
+  background-color: rgba(43, 43, 43, 0.281);
+}
+
+/* BLOCO DE NOTICIAS */
+
+.page__newsSection {
+  display: flex;
+  margin-bottom: 10rem;
+  justify-content: space-around;
+  padding: 2rem;
+}
+
+.page__tittle2 {
+  font-size: 2.5rem;
+  color: var(--azulEscuro);
+  margin-bottom: 4rem;
+  text-align: center;
+}
+
+.page__newsSection div{
+    margin: 0 2rem 0 2rem;
+}
+
+.page__newsSection div img {
+  width: 350px;
+}
+
+.page__newsSection h3 {
+  margin: 2rem 0;
+  font-size: 2rem;
+  color: var(--azulEscuro);
+  max-width: 35rem;
+}
+.page__newsSection p {
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: var(--azulEscuro);
+}
+

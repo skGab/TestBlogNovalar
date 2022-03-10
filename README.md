@@ -2,9 +2,9 @@
 
 # Requisitos gerais
 
-[  ] Transformar prototipo em codigo 
+[ x ] Transformar prototipo em codigo 
 
-[  ] Salvar links/imagens de referencia no documento word
+[ x ] Salvar links/imagens de referencia no documento word
 
 [ x ] Dissertar sobre o processo 
 
@@ -14,30 +14,30 @@
 
 [ x ] Selecionar Imagens
 
-[  ] Selecionar Tipografia
+[ x ] Selecionar Tipografia
 
 [ x ] Selecionar paleta de cores
 
-[  ] Manter o codigo organizado e comentado
+[ x ] Manter o codigo organizado e comentado
 
-[  ] Construir estrutura em HTML
+[ x ] Construir estrutura em HTML
 
-[  ] Estilização com Css(scss)
+[ x ] Estilização com Css(scss)
 
 # Layout
 
-[  ] Header
+[ x ] Header
 
-[  ] Main section
+[ x ] Main section
 
-[  ] Footer
+[ x ] Footer
 
 # Partes Reutilizaveis
 
-[  ] Header
+[ x ] Header
 
-[  ] Footer
+[ x ] Footer
 
-[  ] Blocos seção principal
+[ x ] Blocos seção principal
 
 
