@@ -1,5 +1,20 @@
 # Teste Blog Novalar
 - <a href=https://zdeep10.github.io/TestBlogNovalar/>Visualizar Projeto</a>
+  Projeto do tipo Clone UI. Desenvolvido durante um processo seletivo.
+  
+# Processo de desenvolvimento
+  O meu primeiro passo é escrever um README com todos os requisitos necessários para 
+  desenvolver o projeto, sendo eles os requisitos gerais e os requisitos da aplicação.
+  
+    • Os requisitos gerais são as instruções;
+
+    • Os requisitos da aplicação será tudo que vou precisar desenvolver para 
+      finalizar o projeto.
+  
+  O meu segundo passo é entender e separar o layout do projeto. Vou estar separando em 
+  Header, Main Section e Footer. (Cabeçalho, Seção principal e Rodapé)
+  E por último, vou selecionar partes do projeto que posso reutilizar. Neste caso será o 
+  Cabeçalho, Rodapé e alguns blocos da seção principal.
 
 # Requisitos gerais
 
